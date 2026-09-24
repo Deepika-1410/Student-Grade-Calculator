@@ -27,6 +27,6 @@ else:
 print("\n--- Student Result ---")
 print("Name:", name)
 print("Total:", total)
-print("Average:", average)
+print("Average:", round(average, 2))
 print("Grade:", grade)
 print("Result:", result)

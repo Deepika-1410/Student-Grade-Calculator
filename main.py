@@ -19,9 +19,14 @@ elif average >= 50:
     grade = "D"
 else:
     grade = "F"
+if average >= 50:
+    result = "Pass"
+else:
+    result = "Fail"
 
 print("\n--- Student Result ---")
 print("Name:", name)
 print("Total:", total)
 print("Average:", average)
 print("Grade:", grade)
+print("Result:", result)
